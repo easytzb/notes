@@ -8,14 +8,11 @@ PHP5.3.2+ 以上的环境来运行。有几个敏感的PHP设置和编译标志�
 ###安装
 curl -sS https://getcomposer.org/installer|php [-- --install-dir=/DIR]
 
-
 ###使用
 php /DIR/composer.phar
 
 ###实例：安装slim
-Slim is a micro framework for PHP 5 that helps you quickly write simple yet powerful web applications and APIs.
-
-[中文文档](http://minimee.org/php/slim)
+Slim is a micro framework for PHP 5 that helps you quickly write simple yet powerful web applications and APIs.[中文文档](http://minimee.org/php/slim)
 
 *在项目根目录中建立名为 composer.json 的文件
 
