@@ -121,3 +121,4 @@ package/base-files/files/etc/config/system
 其中 list server 为ntp服务器
 ##编译
     make V=s
+编译完成后将在~/openwrt/bin下找到固件
