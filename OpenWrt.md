@@ -102,6 +102,7 @@ make menuconfig -> Target Profile -> 选择 HuaWei HG255D
     option disabled 0
     option encryption 'psk2'
     option key '174258o'
+    option ssid    MarkJun
 ##添加root帐号密码
 修改package/base-files/files/etc/shadow文件
 
