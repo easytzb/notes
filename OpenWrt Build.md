@@ -4,6 +4,8 @@
     cd ~
     //最新源码参考 https://dev.openwrt.org/wiki/GetSource
     git clone git://git.openwrt.org/14.07/openwrt.git
+    cd ~/openwrt
+    ./scripts/feeds update -a
 ##获取编译配置文件
     cd ~/openwrt
     //应该根据路由器型号及源码版本选择相应的配置文件
