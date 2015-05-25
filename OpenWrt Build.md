@@ -1,5 +1,5 @@
 ##安装编译需要的组件
-    yum install subversion binutils bzip2 gcc gcc-c++ gawk gettext flex ncurses-devel zlib-devel make patch unzip perl-ExtUtils-MakeMaker  glibc glibc-devel glibc-static quilt ncurses-lib sed sdcc intltool sharutils bison wget git-core openssl-devel xz 
+    yum install subversion binutils bzip2 gcc gcc-c++ gawk gettext flex ncurses-devel zlib-devel make patch unzip perl-ExtUtils-MakeMaker  glibc glibc-devel glibc-static quilt ncurses-lib sed sdcc intltool sharutils bison wget git-core openssl-devel xz mercurial 
 ##源码下载
     cd ~
     //最新源码参考 https://dev.openwrt.org/wiki/GetSource
@@ -15,6 +15,7 @@
 Now edit the .config: set the CONFIG_SDK=n and CONFIG_MAKE_TOOLCHAIN=n to not build the SDK or the TOOLCHAIN.
 ##包处理
 安装包：创建~/openwrt/config_install_feeds.pl
+
     #!/usr/bin/perl
 
     use warnings;
